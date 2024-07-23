@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: hsl(0, 0%, 100%);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 150px auto;
+  width: 500px;
+  box-shadow: 1px 1px 1px 1px rgb(189, 186, 186);
+  border-radius: 20px;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:hsl(241, 81%, 54%);
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.result-text{
+  color: hsl(224, 34%, 76%);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.score-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 150%;
+  box-shadow: 1px 1px 1px 1px rgb(33, 33, 103);;
+  margin-bottom: 20px;
+}
+
+.score{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.full-marks{
+  color: hsl(224, 34%, 76%);
+  font-size: 14px;
+}
+
+.result h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.achivment {
+  text-align: center;
+  color: hsl(224, 34%, 76%);
+  font-size: 14px;
+}
+
+.summary {
+  padding: 30px;
+}
+
+.summary h1 {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.summary div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 8px;
+  font-size: 14px;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(244, 231, 231);
+  border-radius: 8px;
+}
+
+.reaction {
+  background-color: rgb(249, 234, 226);
+  color: hsl(0, 100%, 67%,);
+}
+
+.memory {
+  background-color: #FAEDC2;
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+  background-color: #DAF6BE ;
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background: #c3cfed;
+  color: hsl(234, 85%, 45%);
+}
+
+.obtained-score{
+  color: black;
+}
+
+div span {
+  color: hsl(225, 61%, 90%);
+}
+
+.summary button {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(14, 13, 13);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.summary button:hover{
+  background-color: hsl(241, 81%, 54%);
+  color: white;
+}
+
+@media  screen and (max-width: 450px) {
+  main{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
